@@ -2,7 +2,7 @@
 
 Fishnode container image is a flavour of `alpine node:14` image with `fish`, `git`, `typescript`, `ts-node` and `omf` preinstalled.
 
-This app is containerized and hosted in [Quay registry.](quay.io).
+This app is containerized and hosted in [Quay registry.](quay.io)
 
 
 You can get the Container image by running the following `docker` command: 
@@ -14,7 +14,7 @@ docker pull quay.io/narendev/fishnode
 or using `podman` :
 
 ```bash 
-podman pull quay.io/narendev/fishnode
+podman pull quay.io/narendev/fishnode:1.0
 ```
 
 > ### 📚 Note :

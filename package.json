@@ -1,0 +1,24 @@
+{
+  "name": "fishnode",
+  "version": "1.0.0",
+  "description": "Fishnode container image is a flavour of `alpine node:14` image with `fish`, `git`, `typescript`, `ts-node` and `omf` preinstalled.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narenarjun/fishnode.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narenarjun/fishnode/issues"
+  },
+  "homepage": "https://github.com/narenarjun/fishnode#readme"
+}
