@@ -8,13 +8,13 @@ This app is containerized and hosted in [Quay registry.](quay.io)
 You can get the Container image by running the following `docker` command: 
 
 ```bash
-docker pull quay.io/narendev/fishnode
+docker pull quay.io/narendev/fishnode:base-image
 ```
 
 or using `podman` :
 
 ```bash 
-podman pull quay.io/narendev/fishnode:1.0
+podman pull quay.io/narendev/fishnode:base-image
 ```
 
 > ### 📚 Note :
